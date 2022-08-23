@@ -10,7 +10,7 @@
     <AssemblyName>MyNewProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -34,7 +34,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
-    <StartupObject>MyNewProject.Arrays.Sum_array</StartupObject>
+    <StartupObject>MyNewProject.FileHandling.Assign2</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -86,6 +86,7 @@
     <Compile Include="Containment\Employee.cs" />
     <Compile Include="Containment\Person.cs" />
     <Compile Include="Containment\Shipment.cs" />
+    <Compile Include="FileHandling\Demo.cs" />
     <Compile Include="Inheritance\BaseAll.cs" />
     <Compile Include="Inheritance\Hierarchicaleg1.cs" />
     <Compile Include="Inheritance\Hierarchyeg2.cs" />
@@ -144,6 +145,7 @@
     <Compile Include="Ternary\Absolute.cs" />
     <Compile Include="Ternary\T_Oddeven.cs" />
     <Compile Include="Ternary\T_positivenegative.cs" />
+    <Compile Include="Thread\DemoThread.cs" />
     <Compile Include="WrittenTest_11june\Q1_1-100not divibleby5,10.cs" />
   </ItemGroup>
   <ItemGroup>
